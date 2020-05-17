@@ -1,0 +1,32 @@
+/// @description
+//Reach = 1;
+//cRoll = 0;
+//Rolls = 3;
+//Pierce = 1;
+Solid = 0;
+Hspd = 0;
+Vspd = 0;
+SolidList = ds_list_create();
+ds_list_add(SolidList, oBomb, oSolid, oWall, oBlock, oPlayer);
+z = 0;
+Zspd = 0;
+ZStart = 0;
+PunchDir = 0;
+//State = "Normal";
+//Remote = 0;
+//Land = 0;
+//Number = 0;
+//CanExplode = 0;
+
+BombData = ds_map_create();
+BombData[? "Reach"] = 1;
+BombData[? "cRoll"] = 1;
+BombData[? "Rolls"] = 3;
+BombData[? "Pierce"] = 0;
+BombData[? "Solid"] = 0;
+BombData[? "State"] = "Normal";
+BombData[? "Remote"] = 0;
+BombData[? "Land"] = 0;
+BombData[? "Number"] = 0;
+BombData[? "CanExplode"] = 0;
+Step = 0;
