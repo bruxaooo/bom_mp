@@ -1,2 +1,0 @@
-/// @description
-ThisPowerUp = 0;
